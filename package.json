@@ -1,1 +1,1 @@
-{"name":"missing-person-service-q006","version":"1.0.0","private":true,"scripts":{"start":"node src/server.js","test":"node --test"},"engines":{"node":">=20"}}
+{"name":"missing-person-service-q006","version":"1.0.0","private":true,"scripts":{"build":"tsc -p tsconfig.json","start":"npm run build && node dist/server.js","test":"npm run build && node --test"},"engines":{"node":">=20"},"devDependencies":{"@types/node":"^22.15.0","typescript":"^5.8.3"}}

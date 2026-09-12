@@ -1,7 +1,7 @@
 const assert = require('node:assert/strict');
 const http = require('node:http');
 const test = require('node:test');
-const { createServer, readContext } = require('../src/server');
+const { createServer, readContext } = require('../dist/server');
 
 test('领域资料可以读取', () => {
   const context = readContext();
